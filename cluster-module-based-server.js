@@ -12,7 +12,7 @@ if (cluster.isMaster) {
 
   console.log(`master PID: ${process.pid}`);
 
-  cluster.on('exit', (worker, code, signal) => { // eslint-disable-line 
+  cluster.on('exit', (worker, code, signal) => {
     if (code !== 0 && !worker.exitedAfterDisconnect) {
       console.log(`Worker ${worker.id} crashed
       ... Starting a new Worker...`);

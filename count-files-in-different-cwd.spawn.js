@@ -1,7 +1,7 @@
 'use strict';
 const { spawn, } = require('child_process');
 
-const child = spawn('find . -type f | wc -l', { // eslint-disable-line 
+const child = spawn('find . -type f | wc -l', {
   stdio: 'inherit',
   shell: true,
   cwd: '../../Downloads',

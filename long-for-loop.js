@@ -8,7 +8,7 @@ const longComputation = () => {
   return sum;
 };
 
-process.on('message', msg => { // eslint-disable-line 
+process.on('message', msg => {
   const sum = longComputation();
   process.send(sum);
 });
