@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/radlinskii/node-playground/issues"
   },
-  "homepage": "https://github.com/radlinskii/node-playground#readme"
+  "homepage": "https://github.com/radlinskii/node-playground#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
