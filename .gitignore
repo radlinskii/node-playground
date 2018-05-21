@@ -1,2 +1,3 @@
 .eslintrc.json
-files/file.
+.vscode
+.idea
