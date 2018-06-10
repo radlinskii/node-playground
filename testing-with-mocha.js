@@ -1,8 +1,8 @@
 const assert = require('assert');
 
 describe('aaa', () => {
-  it('should fail', done => {
-    assert.strictEqual(1, 2);
+  it('shouldn\'t fail', done => {
+    assert.strictEqual(2, 2);
     done();
   });
 
